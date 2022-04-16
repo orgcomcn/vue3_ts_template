@@ -6,7 +6,7 @@ const routes: Array<RouteRecordRaw> = [
     name: "HomePage",
     component: () => import(/* webpackChunkName: "Home" */ "@/views/home-page.vue")
   },
-  { path: "/", redirect: { name: "Home" } }
+  { path: "/", redirect: { name: "HomePage" } }
 ];
 
 const router = createRouter({
